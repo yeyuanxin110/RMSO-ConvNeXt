@@ -5,7 +5,7 @@ The main file is demo.py, which inputs the image pairs and outputs the matching 
 
 The model and code will be uploaded later.
 
-We have published an optical and SAR image data set named GEGF on https://pan.baidu.com/s/1C_6ei101CMhHlOtKgjVTxQ?pwd=hae0.
+We have published an optical and SAR image data set named GEGF_SOdataset on https://pan.baidu.com/s/1C_6ei101CMhHlOtKgjVTxQ?pwd=hae0.
 
 Some *. py files in tools are encrypted as *. pyd files, which can be normally invoked in Python 3.8 and Win 64 environments.
 
