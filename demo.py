@@ -55,10 +55,6 @@ if __name__ == "__main__":
         data_tem = Image.open('image/sar3.png').convert('L')
         Tensor_ref = transforms.ToTensor()(data_ref).squeeze()
         Tensor_tem = transforms.ToTensor()(data_tem).squeeze()
-        ## Addnoise
-        # choice = random.randint(0, 4)
-        # data_tNoise = Addnoise(Tensor_tem, choice)
-        # data_tNoise = Image.fromarray(data_tNoise.squeeze().numpy() * 255).convert('L')
 
         Tensor_ref = Tensor_ref.unsqueeze(0).unsqueeze(0)
         Tensor_tem = Tensor_tem.unsqueeze(0).unsqueeze(0)
